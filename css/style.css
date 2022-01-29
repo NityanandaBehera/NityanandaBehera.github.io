@@ -5,6 +5,9 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: var(--light);
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --primary: #3dcfd3;
   --dark: #161616;
@@ -418,4 +421,9 @@ footer.footer-social {
 }
 footer .copyright {
   color: var(--ternary);
+}
+@media (max-width: 1024px) {
+  header #main-nav {
+    display: none;
+  }
 }
