@@ -23,6 +23,9 @@
 .btn-primary {
   background: var(--primary);
   color: var(--secondary);
+  text-align: center;
+  margin-left: 39rem;
+  margin-top: 83rem;
 }
 .btn-primary:hover {
   background: transparent;
